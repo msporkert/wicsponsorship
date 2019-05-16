@@ -129,21 +129,23 @@
 
             .site-home .board .row .boardmember h3 {
                 margin: 0;
-                color:white;
+                color: white;
                 font-size: 1.38em;
             }
 
             .site-home .board .row .boardmember h4 {
                 margin: 0;
                 line-height: 1.1em;
-                font-size:1em;
-                vertical-align:central;
+                font-size: 1em;
+                vertical-align: central;
             }
+
             .site-home .board .row .boardmember h5 {
                 margin: 0;
                 line-height: 1.1em;
                 margin-block-start: 1em;
                 margin-block-end: 1em;
+                font-weight: 300;
             }
 
 @media screen and (max-width: 850px) {
@@ -265,7 +267,7 @@
     font-family: 'Playfair Display';
     color: #bbbbbb;
     font-size: .8em;
-    font-weight:400;
+    font-weight: 400;
 }
 
 .packages {
