@@ -29,11 +29,18 @@
 .site-home .help p {
     padding: 0 1em;
     font-weight: 300;
+    margin-block-start: .33em;
+    margin-block-end: .33em;
 }
 
-    .site-home .help p a {
-        border-bottom: 1px solid
-    }
+.site-home .help h3 {
+    margin-block-start: .33em;
+    margin-block-end: .33em;
+}
+
+.site-home .help p a {
+    border-bottom: 1px solid
+}
 
 .site-home .help .shapes {
     -webkit-animation-delay: 1s;
@@ -47,14 +54,16 @@
     }
 
 .site-home .help .bio .sub p {
-    padding: 0 4em .5em 4em;
+    padding: 0 4em 0em 4em;
+    margin-block-start: .2em;
+    margin-block-end: .2em;
 }
 
 .site-home .help .bio .sub h5 {
     padding: 0;
     margin: 0 0 0 2em;
     color: #6f32a3;
-    margin-block-end: .5em;
+    margin-block-end: .25em;
 }
 
 .site-home .about {
@@ -223,7 +232,7 @@
     }
 
 .site-home .help .bio .sub p {
-    padding: 0 3em, 1em, 3em;
+    padding: 0 3em, 0em, 3em;
 }
 
 .site-home .details .bio h6 {
@@ -579,7 +588,7 @@ body {
 .wrapper {
     margin: 0 auto;
     max-width: 1800px;
-    padding: 1em 2em 1em 2em
+    padding: 1em 1.5em 1em 1.5em
 }
 
 
